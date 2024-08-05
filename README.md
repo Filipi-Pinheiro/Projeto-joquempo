@@ -24,5 +24,5 @@
 ## How to access
 
 To access the website, click on the link below! <br>
-<a href="https://filipi-pinheiro.github.io/Mario-Game/" target="_blank">Access to website</a>
+<a href="https://filipi-pinheiro.github.io/Projeto-joquempo/" target="_blank">Access to website</a>
 
