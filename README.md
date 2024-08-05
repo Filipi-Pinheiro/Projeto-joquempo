@@ -1,7 +1,7 @@
 # Projeto-joquempo
 
 <p align="center">
- <img width="150" src="src/imagens/tesoura.png">
+ <img width="150" style="transform: rotate(45deg)" src="src/imagens/tesoura.png">
 </p>
 
 ## Description
