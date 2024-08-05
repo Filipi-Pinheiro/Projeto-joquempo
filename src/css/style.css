@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+main{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.placar{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  font-size: 2.5em;
+}
+
+.campo_game{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+
+.campo_comput{
+  & img{
+    transform: rotate(-180deg);
+  }
+}
+
+.campo_option{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  & button{
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 1s ease;
+  }
+  & button:hover{
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 0px 5px gray;
+  }
+}
+
+img{
+  width: 100px;
+}
