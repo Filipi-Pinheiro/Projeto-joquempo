@@ -1,7 +1,7 @@
 # Projeto-joquempo
 
 <p align="center">
- <img width="150" src="src/imagens/pedra.png">
+ <img width="150" src="src/imagens/tesoura.png">
 </p>
 
 ## Description
